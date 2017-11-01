@@ -1,0 +1,71 @@
+* {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding-left: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+body {
+    background-color: #01000F;
+    min-width: 1000px;
+}
+
+/* Title Section Styles */
+
+.title-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* Weather Section Styles */
+.current-weather-section {
+    
+    margin-bottom: 50px;
+}
+
+.current-weather {
+    background-color: rgba(41, 221, 255, .2);
+    border-radius: 5px;
+}
+
+#weather-icon img {
+    padding: 20px;
+}
+
+#temperature, #precipitation-type {
+    font-size: 2em;
+}
+
+#temperature {
+    color: green;
+}
+
+/* Button Styles */
+
+.btn-primary {
+    background-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+}
+
+.change-temp {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.temp-box {
+    float: left;
+    width: 20%;
+}
